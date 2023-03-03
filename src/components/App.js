@@ -1,8 +1,8 @@
  import React from 'react'
 import { BrowserRouter } from 'react-router-dom';
-import { AppRoutes } from '../AppRoutes';
+import  AppRoutes  from '../AppRoutes';
 import '../styles/App.css';
-import { NavBar } from './NavBar';
+import  NavBar  from './NavBar';
 const App = () => {
 
   return (
@@ -18,6 +18,3 @@ const App = () => {
 
 
 export default App;
-
-
-
